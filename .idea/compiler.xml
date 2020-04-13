@@ -23,12 +23,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="eureka-server" />
+        <module name="service-consumer" />
         <module name="service-provider" />
         <module name="spring_cloud_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="service-consumer" target="1.8" />
       <module name="service-provider" target="1.8" />
       <module name="spring_cloud_demo" target="1.5" />
     </bytecodeTargetLevel>
